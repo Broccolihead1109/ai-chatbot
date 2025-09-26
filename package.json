@@ -1,0 +1,12 @@
+{
+  "name": "openai-chatbot",
+  "version": "1.0.0",
+  "description": "OpenAI Chatbot deployed on Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "openai": "^4.30.0"
+  }
+}
