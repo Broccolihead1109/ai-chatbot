@@ -5,6 +5,3 @@ services:
     plan: free
     buildCommand: "npm install"
     startCommand: "node api/chat.js"
-    envVars:
-      - key: OPENAI_API_KEY
-        sync: true
